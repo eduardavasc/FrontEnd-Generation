@@ -1,7 +1,7 @@
 /*Cor da página*/
 body {
     color: white;
-    background-color:black;
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,10 +17,10 @@ header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border:5px solid #42a1be;
+    border: 5px solid #42a1be;
 }
 
-a{
+a {
     Color: white;
     text-decoration: none;
 }
@@ -36,8 +36,8 @@ footer {
 }
 
 footer a {
-margin: 20px;
-text-align:center;
+    margin: 20px;
+    text-align: center;
 }
 
 footer p {
@@ -51,6 +51,43 @@ footer p {
 .container {
     padding: 0px 50px;
 }
- div a:hover {
+
+div a:hover {
     color: #42a1be;
- }
+}
+
+/* CONTATO */
+
+.form-group {
+    margin: 60px 60px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+input[type="submit"] {
+    background-color: #42a1be;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    width: 100px;
+    margin: auto;
+    display: block;
+}
